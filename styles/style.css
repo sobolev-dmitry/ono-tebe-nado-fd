@@ -1,1 +1,45 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 
+  1fr min-content 1fr;
+  padding: 0 50px;
+}
+
+.header__menu {}
+
+.header__links-list {}
+
+.header__links-list-item {}
+
+.header__links-list-item_no-bullit {}
+
+.header__link {}
+
+.header__link_active {}
+
+.header__logo {}
+
+.header__logo-image {}
+
+.address {}
+
+.header__address {}
+
+
+
+
+
+
+
+
+
+
+
+.cover {}
+
+.lots {}
+
+.about {}
+
+.footer {}
