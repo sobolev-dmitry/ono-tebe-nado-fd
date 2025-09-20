@@ -1,16 +1,29 @@
 .header {
+  width: 1100px;
+  height: 293px;
   display: grid;
   align-items: center;
   grid-template-columns: 
   1fr min-content 1fr;
   padding: 0 50px;
+  margin: 0 auto;
+  background: gray;
 }
 
-.header__menu {}
+.header__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
 
-.header__links-list {}
+.header__links-list {
+list-style: none;  
+}
 
-.header__links-list-item {}
+.header__links-list-item {
+  list-style: none;
+}
 
 .header__links-list-item_no-bullit {}
 
@@ -18,13 +31,21 @@
 
 .header__link_active {}
 
-.header__logo {}
+.header__logo {
+  justify-self: center;
+  min-width: 148px;
+}
 
-.header__logo-image {}
+.header__logo-image {
+  width: 
+}
 
 .address {}
 
-.header__address {}
+.header__address {
+  justify-self: end;
+  
+}
 
 
 
