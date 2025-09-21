@@ -1,5 +1,4 @@
 .header {
-  width: 1100px;
   height: 293px;
   display: grid;
   align-items: center;
@@ -7,44 +6,130 @@
   1fr min-content 1fr;
   padding: 0 50px;
   margin: 0 auto;
-  background: gray;
 }
 
 .header__menu {
   display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 5px;
+  flex-direction: row;
+  gap: 13px;
+  
 }
 
 .header__links-list {
-list-style: none;  
+list-style: none;
+  
 }
 
 .header__links-list-item {
-  list-style: none;
+display: inline-block;
 }
 
 .header__links-list-item_no-bullit {}
 
-.header__link {}
+.header__link {
+font-size: 18px;
+
+}
 
 .header__link_active {}
 
 .header__logo {
   justify-self: center;
-  min-width: 148px;
+
 }
 
 .header__logo-image {
-  width: 
+  display: blok;
+  width: 148px;
+  height: 105px;
 }
 
 .address {}
 
 .header__address {
   justify-self: end;
+}
+
+/* cover */
+
+.cover {
+  display: flex;
+  position: relative;
+  inset: 0;
+  background: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 757px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.corev__title {
+  text-transform:uppercase;
+  font-style: bold;
+  font-size: 100px;
+  z-index: 50;
+  color: #fff;
+  margin: 165px 50px 100px 50px;
+}
+
+.aligned-text {
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+.aligned-text_left {
+  text-align: start;
+  letter-spacing: 0.3em;
+
+}
+
+.aligned-text_center {
+  text-align: center;
+  letter-spacing: 0.3em;
   
+
+  
+}
+
+.aligned-text_right {
+  text-align: end;
+  letter-spacing: 0.3em;
+  margin-right: -30px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 656px 50px 50px 50px;
+  z-index: 50;
+  
+}
+
+.cover__description-text {
+  word-spacing: 18px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color:#fff;
+  margin-right: 107px;
+
+}
+
+.bet-button {
+  all:unset;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 22px;
+  padding: 12px 31px;
+
 }
 
 
@@ -57,7 +142,9 @@ list-style: none;
 
 
 
-.cover {}
+
+
+
 
 .lots {}
 
