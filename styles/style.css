@@ -183,15 +183,15 @@ font-size: 18px;
 }
 
 .card_type_film {
-  background: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card__title {
@@ -224,17 +224,63 @@ color: #fff;
   color:#000;
 }
 
+.about {
+  display: block;
+  margin: 120px 24px 0 24px;
+  min-height: 595px;
 
+  
+  
+}
 
+.about__column {
+  display: grid;
+  grid-template-columns: 334px auto;
 
-/* это потом сделаю */
+}
 
+.columb__left {
+  justify-self: center;
+  padding-top: 35px;
+}
 
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
 
+.about__logo-image { 
+  width: 148px;
+  height: 114px;
+  
+}
 
+.columb__right {
+  padding: 133px 25px 0 25px;
+  
 
+}
 
+.about__title {
+font-style: Bold;
+font-size: 40px;
+text-transform: uppercase;
 
-.about {}
+  
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 24px;
+font-style: Regular;
+font-size: 20px;
+}
 
 .footer {}
