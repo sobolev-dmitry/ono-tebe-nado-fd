@@ -235,7 +235,7 @@
 .about {
   display: block;
   margin: 120px 24px 0 24px;
-  min-height: 595px;  
+  min-height: 595px;
 }
 
 .about__column {
@@ -258,9 +258,9 @@
   background-color: #000;
 }
 
-.about__logo-image { 
+.about__logo-image {
   width: 148px;
-  height: 114px;  
+  height: 114px;
 }
 
 .columb__right {
@@ -270,7 +270,7 @@
 .about__title {
 font-style: bold;
 font-size: 40px;
-text-transform: uppercase;  
+text-transform: uppercase;
 }
 
 .about__text {
