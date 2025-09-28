@@ -73,7 +73,7 @@
   font-style: normal;
   font-size: 18px;
   list-style: none;
-  line-height: 24px;
+  line-height: 24.3px;
 }
 
 /* cover */
@@ -142,6 +142,7 @@
 .cover__description-text {
   word-spacing: 18px;
   font-size: 22px;
+  font-style: normal;
   text-transform: uppercase;
   color:#fff;
   margin-right: 107px;
@@ -155,6 +156,7 @@
   background: transparent;
   border: 1px solid #fff;
   font-size: 22px;
+  font-style: normal;
   padding: 12px 31px;
 
 }
@@ -165,7 +167,7 @@
 
 .lots__heading {
   margin-left: 64px;
-  font-size: 45px;
+  font-size: 40px;
   font-style: bold;
   text-transform: uppercase;
   color:#000;
@@ -247,6 +249,7 @@ color: #fff;
 .lots__look-more-link {
   margin-left: 64px;
   font-size: 20px;
+  font-style: normal;
   color:#000;
 }
 
@@ -293,7 +296,7 @@ color: #fff;
 }
 
 .about__title {
-font-style: Bold;
+font-style: bold;
 font-size: 40px;
 text-transform: uppercase;
 
@@ -305,8 +308,9 @@ text-transform: uppercase;
   flex-direction: column;
   margin-top: 100px;
   gap: 24px;
-font-style: Regular;
-font-size: 20px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .footer {
@@ -337,7 +341,9 @@ font-size: 20px;
   list-style: none;
 }
 
-.footer__menu-link {}
+.footer__menu-link {
+  text-underline-offset: 4px;
+}
 
 .footer__menu-link_active {
   text-decoration: none;
