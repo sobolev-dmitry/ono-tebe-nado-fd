@@ -143,7 +143,6 @@
 
 .lots {
   margin-top: 180px;
-  min-height: 723px;
 }
 
 .lots_heading {
@@ -208,6 +207,7 @@
   text-decoration: underline;
   text-decoration-style: solid;
   color: #fff;
+  z-index: 50;
 }
 
 .card_text {
@@ -215,6 +215,7 @@
   font-style: normal;
   font-size: 20px;
   color: #fff;
+  z-index: 50;
 }
 
 .lots_look-more-link {
